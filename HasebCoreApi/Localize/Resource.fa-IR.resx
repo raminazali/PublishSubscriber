@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="err_general_duplicate" xml:space="preserve">
+    <value>رکورد تکراری هست</value>
+  </data>
+  <data name="err_mobile_validation" xml:space="preserve">
+    <value>فرمت موبایل صحیح نیست. لطفا بدون صفر اول وارد شود</value>
+  </data>
+  <data name="err_user_auth_mobile" xml:space="preserve">
+    <value>شماره موبایل هم باید وارد شود</value>
+  </data>
+  <data name="err_user_auth_mobile_update" xml:space="preserve">
+    <value>خطایی در سیستم رخ داده است لطفا مجددا اقدام نمایید</value>
+  </data>
+  <data name="err_user_change_mobile" xml:space="preserve">
+    <value>خطایی در سیستم رخ داده است لطفا مجددا اقدام نمایید</value>
+  </data>
+  <data name="err_user_inActive" xml:space="preserve">
+    <value>اکانت شما غیر فعال هست</value>
+  </data>
+  <data name="err_user_mobile_notValidated" xml:space="preserve">
+    <value>شماره همراه شما تایید نشده است</value>
+  </data>
+  <data name="err_user_notFound" xml:space="preserve">
+    <value>نام کاربری یا پسورد اشتباه است</value>
+  </data>
+  <data name="err_user_otp" xml:space="preserve">
+    <value>کد تایید یا نادرست است یا منقضی شده است</value>
+  </data>
+  <data name="err_user_otp_sent" xml:space="preserve">
+    <value>قبلا کد ارسال شده است و باید {0} منتظر بمانید</value>
+  </data>
+  <data name="err_user_otp_sent_count" xml:space="preserve">
+    <value>تعداد پیامک های ارسال شده بیش از حد مجار میباشد</value>
+  </data>
+  <data name="err_user_password_update" xml:space="preserve">
+    <value>خطایی در سیستم رخ داده است لطفا مجددا اقدام نمایید</value>
+  </data>
+  <data name="err_user_signup_have_digi" xml:space="preserve">
+    <value>شما اکانت دیجی مالیات دارید و میتوانید با آن وارد شوید</value>
+  </data>
+  <data name="err_user_signup_username_reserved" xml:space="preserve">
+    <value>نام کاربری شما رزرو شده است</value>
+  </data>
+  <data name="err_user_signup_username_used" xml:space="preserve">
+    <value>نام کاربری شما قبلا ثبت شده است</value>
+  </data>
+  <data name="err_user_verify_mobile_update" xml:space="preserve">
+    <value>خطایی در سیستم رخ داده است لطفا مجددا اقدام نمایید</value>
+  </data>
+  <data name="req_email" xml:space="preserve">
+    <value>لطفا ایمیل جدید خود را وارد نمایید</value>
+  </data>
+  <data name="req_emailOTP" xml:space="preserve">
+    <value>کد ارسال شده ایمیل را وارد نمایید</value>
+  </data>
+  <data name="req_identifier" xml:space="preserve">
+    <value>لطفا نام کاربری یا ایمیل و یا شماره موبایل خود را وارد نمایید</value>
+  </data>
+  <data name="req_mobile" xml:space="preserve">
+    <value>شماره موبایل را وارد نکرده اید</value>
+  </data>
+  <data name="req_mobileOTP" xml:space="preserve">
+    <value>کد ارسال را وارد نکرده اید</value>
+  </data>
+  <data name="req_newPassword" xml:space="preserve">
+    <value>لطفا رمز جدید خود را وارد نمایید</value>
+  </data>
+  <data name="req_oldPassword" xml:space="preserve">
+    <value>لطفا رمز قدیمی خود را وارد نمایید</value>
+  </data>
+  <data name="req_otp" xml:space="preserve">
+    <value>کد وارد نشده است</value>
+  </data>
+  <data name="req_password" xml:space="preserve">
+    <value>رمز عبور وارد نشده است</value>
+  </data>
+  <data name="req_username" xml:space="preserve">
+    <value>نام کاربری وارد نشده است</value>
+  </data>
+  <data name="err_user_inActive_inDigi" xml:space="preserve">
+    <value>کاربر با این نام ذر دیجی مالیات فعال نیست</value>
+  </data>
+  <data name="err_user_signup_inactive_digi" xml:space="preserve">
+    <value>نام کاربری شما در درجی مالیات غیر فعال است</value>
+  </data>
+  <data name="err_format_not_valid" xml:space="preserve">
+    <value>خطا در فرمت اطلاعات</value>
+  </data>
+  <data name="err_plan_not_found" xml:space="preserve">
+    <value>پلن یافت نشد</value>
+  </data>
+  <data name="err_record_not_found" xml:space="preserve">
+    <value>رکوردی یافت نشد</value>
+  </data>
+  <data name="req_duration_min_max" xml:space="preserve">
+    <value>مدت زمان باید حداقل 1 باشد</value>
+  </data>
+  <data name="req_name" xml:space="preserve">
+    <value>فیلد نام ضروری است</value>
+  </data>
+  <data name="error_id_length_false" xml:space="preserve">
+    <value>طول شناسه ،بیشتر یا کمتر از 24 می باشد</value>
+  </data>
+  <data name="err_user_signup_digi" xml:space="preserve">
+    <value>نام کاربری یا شماره تلفن در دیجی مالیات ثبت شده است</value>
+  </data>
+  <data name="err_user_mobile_fix" xml:space="preserve">
+    <value>شماره موبایل شما در دیجی مالیات ثبت نشده است لطفا اقدام به ثبت آن کنید</value>
+  </data>
+  <data name="err_branch_notFound" xml:space="preserve">
+    <value>شعبه یافت نشد</value>
+  </data>
+  <data name="err_commodity_group_notFound" xml:space="preserve">
+    <value>گروه کالا یافت نشد</value>
+  </data>
+  <data name="err_unit_main_notFound" xml:space="preserve">
+    <value>واحد سنجش اصلی یافت نشد</value>
+  </data>
+  <data name="err_unit_sub_notFound" xml:space="preserve">
+    <value>واحد سنجش فرعی یافت نشد</value>
+  </data>
+  <data name="error_no_realperson_found" xml:space="preserve">
+    <value>هیچ شخص حقیقی پیدا نشد</value>
+  </data>
+  <data name="error_no_unit_exists" xml:space="preserve">
+    <value>واحد مورد نظر وجود ندارد</value>
+  </data>
+  <data name="err_commodityGroup_notFound" xml:space="preserve">
+    <value>گروه کالا یافت نشد</value>
+  </data>
+  <data name="err_objectId_format" xml:space="preserve">
+    <value>فرمت شناسه معتبر نیست</value>
+  </data>
+  <data name="error_no_mobile_found" xml:space="preserve">
+    <value>چنین شماره یافت نشد لطفا دوباره امتحان کنید</value>
+  </data>
+  <data name="err_contact_notFound" xml:space="preserve">
+    <value>تماس با ما یافت نشد</value>
+  </data>
+  <data name="err_commodity_price_period_duplicate" xml:space="preserve">
+    <value>بازه قیمت گذاری برای این کالا تکراری است</value>
+  </data>
+  <data name="err_price_period_overlap" xml:space="preserve">
+    <value>بازه قیمت گذاری هم پوشانی دارد</value>
+  </data>
+  <data name="err_bank_account_not_found" xml:space="preserve">
+    <value>حساب بانکی مورد نظر یافت نشده است</value>
+  </data>
+  <data name="err_currency_not_found" xml:space="preserve">
+    <value>ارز مورد نظر یافت نشده است</value>
+  </data>
+  <data name="err_for_inventories" xml:space="preserve">
+    <value>لطفا بخش موجودی را تکمیل نمایید</value>
+  </data>
+  <data name="err_image_length_somuch" xml:space="preserve">
+    <value>حجم عکس یا عکس های مورد نظر زیاد است</value>
+  </data>
+  <data name="err_file_path_null" xml:space="preserve">
+    <value>مسیر وارد شده معتبر نمی باشد</value>
+  </data>
+  <data name="err_commoditygroup_commodity_reference" xml:space="preserve">
+    <value>این گروه کالا در کالای دیگر مورد استفاده قرار گرفته است</value>
+  </data>
+  <data name="err_commoditygroup_self_reference" xml:space="preserve">
+    <value>این گروه کالا را نمی توانید پاک کنید زیرا در گروه های دیگر استفاده شده است</value>
+  </data>
+  <data name="err_unit_id_referenced" xml:space="preserve">
+    <value>این واحد سنجش در دیگر بخش ها استفاده شده و قابل حذف نیست</value>
+  </data>
+  <data name="err_duplicate_name" xml:space="preserve">
+    <value>نام نوع قیمت تکراری می باشد</value>
+  </data>
+  <data name="err_commodity_notFound" xml:space="preserve">
+    <value>کالای مورد نظر یافت نشده است</value>
+  </data>
+  <data name="err_bankaccount_referenced" xml:space="preserve">
+    <value>برای حذف بانک باید اول در  بخش موجودی اولیه بانک مورد نظر را حذف کنید</value>
+  </data>
+  <data name="err_initial_pos_referenced" xml:space="preserve">
+    <value>نمی توانیم حذف کنیم زیرا در بخش موجودی کارتخوان ثبت شده است</value>
+  </data>
+  <data name="err_commodity_has_referenced" xml:space="preserve">
+    <value>این کالا دارای دوره تخفیف می باشد و شما قادر به حذف آن نیستید</value>
+  </data>
+  <data name="err_image_not_deleted" xml:space="preserve">
+    <value>عکس مورد نظر حذف نشد لطفا دوباره امتحان کنید</value>
+  </data>
+  <data name="err_referenced_in_initialPerson_inventory" xml:space="preserve">
+    <value>شخص حقیقی یا حقوقی مورد نظر در موجودی اولیه وجود دارد لطفا آن را حذف کنید</value>
+  </data>
+</root>
