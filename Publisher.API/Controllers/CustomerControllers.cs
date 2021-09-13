@@ -18,7 +18,7 @@ namespace Publisher.API.Controllers
     [ApiController]
     public class CustomerControllers : ControllerBase
     {
-        private readonly IMongoRepository<ReqDataMongo> _collection;
+        private readonly IMongoRepository<CustomerRequestBody> _collection;
         private readonly IResponseApi responseApi;
 
         public CustomerControllers(IResponseApi responseApi)

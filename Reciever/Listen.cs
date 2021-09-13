@@ -13,21 +13,23 @@ namespace Reciever
 {
     public class Listen: RabbitListener
     {
-        private readonly IMongoRepository<ReqDataMongo> _CostumerReqeust;
-        private readonly IMongoRepository<ReqDataForUser> _UserRequest;
+        private readonly IMongoRepository<CustomerRequestBody> _CostumerReqeust;
+        private readonly IMongoRepository<UserRequestBody> _UserRequest;
 
 
         public Listen(IServiceProvider serviceProvider, RabitMqSettings settings) : base(settings)
         {
             var CreatedScope = serviceProvider.CreateScope().ServiceProvider;
-            _CostumerReqeust = CreatedScope.GetRequiredService<IMongoRepository<ReqDataMongo>>();
-            _UserRequest = CreatedScope.GetRequiredService<IMongoRepository<ReqDataForUser>>();
+            _CostumerReqeust = CreatedScope.GetRequiredService<IMongoRepository<CustomerRequestBody>>();
+            _UserRequest = CreatedScope.GetRequiredService<IMongoRepository<UserRequestBody>>();
         }
+        // Consume the Data From RabbitMq Queue and save body of request to mongodb 
         public override void ConsumerMessages(string content)
         {
-            ReqData Response = JsonSerializer.Deserialize<ReqData>(content);
+            Request Response = JsonSerializer.Deserialize<Request>(content);
             if (!String.IsNullOrWhiteSpace(Response.Body))
             {
+                // OperationId 1 means Costumer model, Else for User Data Insert
                 if (Response.OperationId == 1)
                 {
 
@@ -35,7 +37,7 @@ namespace Reciever
 
                     List<Customer> CustomerBody = new List<Customer> { body };
 
-                    var reqDataMongo = new ReqDataMongo
+                    var reqDataMongo = new CustomerRequestBody
                     {
                         Body = CustomerBody,
                         Header = Response.Header,
@@ -50,7 +52,7 @@ namespace Reciever
 
                     List<User> UserBody = new List<User> { body };
 
-                    var reqDataForUser = new ReqDataForUser
+                    var reqDataForUser = new UserRequestBody
                     {
                         Body = UserBody,
                         Header = Response.Header,

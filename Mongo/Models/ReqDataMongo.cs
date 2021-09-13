@@ -5,7 +5,7 @@ using System.Collections.Generic;
 namespace Mongo.Models
 {
     [BsonCollection("Costumer")]
-    public class ReqDataMongo: Document
+    public class CustomerRequestBody: Document
     {
         [BsonElement("Path")]
         public string Path { get; set; }

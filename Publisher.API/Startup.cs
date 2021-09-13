@@ -52,7 +52,7 @@ namespace Publisher.API
 
             services.AddSingleton<IResponseApi, ResponseApiC>();
 
-            services.AddSingleton<IRequestClass, RequestClass>();
+            services.AddSingleton<IRequestClass, Requester>();
 
             services.AddHostedService<RabbitListener>();
             services.AddHostedService<Listen>();

@@ -10,6 +10,6 @@ namespace ResponseApi.Interface
 {
     public interface IResponseApi
     {
-        Task<(int, List<ReqDataMongo>)> GetData(PaginationFilter filter);
+        Task<(int, List<CustomerRequestBody>)> GetData(PaginationFilter filter);
     }
 }

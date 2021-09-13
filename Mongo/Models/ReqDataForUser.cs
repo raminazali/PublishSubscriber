@@ -6,7 +6,7 @@ using System.Text;
 namespace Mongo.Models
 {
     [BsonCollection("User")]
-    public class ReqDataForUser: Document
+    public class UserRequestBody: Document
     {
         [BsonElement("Path")]
         public string Path { get; set; }

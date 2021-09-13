@@ -39,7 +39,7 @@ namespace Sender
 
             }
 
-            var model = new ReqData();
+            var model = new Request();
             if (path == "/api/UserControllers")
             {
 

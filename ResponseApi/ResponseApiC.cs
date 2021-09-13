@@ -13,14 +13,14 @@ namespace ResponseApi
 {
     public class ResponseApiC : IResponseApi
     {
-        private readonly IMongoRepository<ReqDataMongo> _collections;
+        private readonly IMongoRepository<CustomerRequestBody> _collections;
         public ResponseApiC(IServiceProvider provider)
         {
             var ResponseApiScope = provider.CreateScope();
-            _collections = ResponseApiScope.ServiceProvider.GetRequiredService<IMongoRepository<ReqDataMongo>>();
+            _collections = ResponseApiScope.ServiceProvider.GetRequiredService<IMongoRepository<CustomerRequestBody>>();
         }
 
-        public async Task<(int,List<ReqDataMongo>)> GetData(PaginationFilter filter)
+        public async Task<(int,List<CustomerRequestBody>)> GetData(PaginationFilter filter)
         {
             var data = _collections.AsQueryable().Skip((filter.PageNumber - 1) * filter.PageSize)
                .Take(filter.PageSize).ToList();
