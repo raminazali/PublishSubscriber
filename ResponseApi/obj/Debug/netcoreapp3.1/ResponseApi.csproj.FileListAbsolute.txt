@@ -1,0 +1,12 @@
+E:\Projects\PublishSubscrib\ResponseApi\bin\Debug\netcoreapp3.1\ResponseApi.deps.json
+E:\Projects\PublishSubscrib\ResponseApi\bin\Debug\netcoreapp3.1\ResponseApi.dll
+E:\Projects\PublishSubscrib\ResponseApi\bin\Debug\netcoreapp3.1\ResponseApi.pdb
+E:\Projects\PublishSubscrib\ResponseApi\bin\Debug\netcoreapp3.1\Mongo.dll
+E:\Projects\PublishSubscrib\ResponseApi\bin\Debug\netcoreapp3.1\Mongo.pdb
+E:\Projects\PublishSubscrib\ResponseApi\obj\Debug\netcoreapp3.1\ResponseApi.csproj.AssemblyReference.cache
+E:\Projects\PublishSubscrib\ResponseApi\obj\Debug\netcoreapp3.1\ResponseApi.AssemblyInfoInputs.cache
+E:\Projects\PublishSubscrib\ResponseApi\obj\Debug\netcoreapp3.1\ResponseApi.AssemblyInfo.cs
+E:\Projects\PublishSubscrib\ResponseApi\obj\Debug\netcoreapp3.1\ResponseApi.csproj.CoreCompileInputs.cache
+E:\Projects\PublishSubscrib\ResponseApi\obj\Debug\netcoreapp3.1\ResponseApi.csproj.CopyComplete
+E:\Projects\PublishSubscrib\ResponseApi\obj\Debug\netcoreapp3.1\ResponseApi.dll
+E:\Projects\PublishSubscrib\ResponseApi\obj\Debug\netcoreapp3.1\ResponseApi.pdb

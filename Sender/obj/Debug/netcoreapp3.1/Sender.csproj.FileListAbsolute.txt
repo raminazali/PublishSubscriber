@@ -1,0 +1,12 @@
+E:\Projects\PublishSubscrib\Sender\bin\Debug\netcoreapp3.1\Sender.deps.json
+E:\Projects\PublishSubscrib\Sender\bin\Debug\netcoreapp3.1\Sender.dll
+E:\Projects\PublishSubscrib\Sender\bin\Debug\netcoreapp3.1\Sender.pdb
+E:\Projects\PublishSubscrib\Sender\bin\Debug\netcoreapp3.1\RabbitMQ.dll
+E:\Projects\PublishSubscrib\Sender\bin\Debug\netcoreapp3.1\RabbitMQ.pdb
+E:\Projects\PublishSubscrib\Sender\obj\Debug\netcoreapp3.1\Sender.csproj.AssemblyReference.cache
+E:\Projects\PublishSubscrib\Sender\obj\Debug\netcoreapp3.1\Sender.AssemblyInfoInputs.cache
+E:\Projects\PublishSubscrib\Sender\obj\Debug\netcoreapp3.1\Sender.AssemblyInfo.cs
+E:\Projects\PublishSubscrib\Sender\obj\Debug\netcoreapp3.1\Sender.csproj.CoreCompileInputs.cache
+E:\Projects\PublishSubscrib\Sender\obj\Debug\netcoreapp3.1\Sender.csproj.CopyComplete
+E:\Projects\PublishSubscrib\Sender\obj\Debug\netcoreapp3.1\Sender.dll
+E:\Projects\PublishSubscrib\Sender\obj\Debug\netcoreapp3.1\Sender.pdb

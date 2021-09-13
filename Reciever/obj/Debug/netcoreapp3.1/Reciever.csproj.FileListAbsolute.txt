@@ -1,0 +1,14 @@
+E:\Projects\PublishSubscrib\Reciever\bin\Debug\netcoreapp3.1\Reciever.deps.json
+E:\Projects\PublishSubscrib\Reciever\bin\Debug\netcoreapp3.1\Reciever.dll
+E:\Projects\PublishSubscrib\Reciever\bin\Debug\netcoreapp3.1\Reciever.pdb
+E:\Projects\PublishSubscrib\Reciever\bin\Debug\netcoreapp3.1\Mongo.dll
+E:\Projects\PublishSubscrib\Reciever\bin\Debug\netcoreapp3.1\RabbitMQ.dll
+E:\Projects\PublishSubscrib\Reciever\bin\Debug\netcoreapp3.1\Mongo.pdb
+E:\Projects\PublishSubscrib\Reciever\bin\Debug\netcoreapp3.1\RabbitMQ.pdb
+E:\Projects\PublishSubscrib\Reciever\obj\Debug\netcoreapp3.1\Reciever.csproj.AssemblyReference.cache
+E:\Projects\PublishSubscrib\Reciever\obj\Debug\netcoreapp3.1\Reciever.AssemblyInfoInputs.cache
+E:\Projects\PublishSubscrib\Reciever\obj\Debug\netcoreapp3.1\Reciever.AssemblyInfo.cs
+E:\Projects\PublishSubscrib\Reciever\obj\Debug\netcoreapp3.1\Reciever.csproj.CoreCompileInputs.cache
+E:\Projects\PublishSubscrib\Reciever\obj\Debug\netcoreapp3.1\Reciever.csproj.CopyComplete
+E:\Projects\PublishSubscrib\Reciever\obj\Debug\netcoreapp3.1\Reciever.dll
+E:\Projects\PublishSubscrib\Reciever\obj\Debug\netcoreapp3.1\Reciever.pdb

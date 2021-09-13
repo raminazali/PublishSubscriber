@@ -1,0 +1,9 @@
+E:\Projects\PublishSubscrib\Mongo\bin\Debug\netcoreapp3.1\Mongo.deps.json
+E:\Projects\PublishSubscrib\Mongo\bin\Debug\netcoreapp3.1\Mongo.dll
+E:\Projects\PublishSubscrib\Mongo\bin\Debug\netcoreapp3.1\Mongo.pdb
+E:\Projects\PublishSubscrib\Mongo\obj\Debug\netcoreapp3.1\Mongo.csproj.AssemblyReference.cache
+E:\Projects\PublishSubscrib\Mongo\obj\Debug\netcoreapp3.1\Mongo.AssemblyInfoInputs.cache
+E:\Projects\PublishSubscrib\Mongo\obj\Debug\netcoreapp3.1\Mongo.AssemblyInfo.cs
+E:\Projects\PublishSubscrib\Mongo\obj\Debug\netcoreapp3.1\Mongo.csproj.CoreCompileInputs.cache
+E:\Projects\PublishSubscrib\Mongo\obj\Debug\netcoreapp3.1\Mongo.dll
+E:\Projects\PublishSubscrib\Mongo\obj\Debug\netcoreapp3.1\Mongo.pdb
