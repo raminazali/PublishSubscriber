@@ -17,3 +17,5 @@ In this project, the publish subscribing method is used, which is the connection
 > .Net Core 3.1
 > 
 > DDD (Domain Driven Development)
+> 
+> Repository Pattern Development
