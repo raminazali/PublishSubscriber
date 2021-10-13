@@ -11,6 +11,9 @@ In this project, the publish subscribing method is used, which is the connection
 # The concepts used in these codes are:
 
 > RabbitMq 
+> 
 > Nosql MongoDb
+> 
 > .Net Core 3.1
+> 
 > DDD (Domain Driven Development)
