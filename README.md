@@ -1,6 +1,5 @@
 ## PublishSubscriber
 
-# 
 In this project, the publish subscribing method is used, which is the connection between two microservices that when an API is called, it sends the request information to another microservice using Rabbitmq, and that microservice stores the information in the MongoDb database.
 
 
