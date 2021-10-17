@@ -50,7 +50,7 @@ namespace Publisher.API
             services.AddSingleton(sp => sp.GetRequiredService<IOptions<RabitMqSettings>>().Value);
 
 
-            services.AddSingleton<IResponseApi, ResponseApiC>();
+            services.AddSingleton<IResponseApi, ResponseApi.ResponseApi>();
 
             services.AddSingleton<IRequestClass, Requester>();
 

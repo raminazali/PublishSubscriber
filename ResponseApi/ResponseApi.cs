@@ -11,10 +11,10 @@ using System.Threading.Tasks;
 
 namespace ResponseApi
 {
-    public class ResponseApiC : IResponseApi
+    public class ResponseApi : IResponseApi
     {
         private readonly IMongoRepository<CustomerRequestBody> _collections;
-        public ResponseApiC(IServiceProvider provider)
+        public ResponseApi(IServiceProvider provider)
         {
             var ResponseApiScope = provider.CreateScope();
             _collections = ResponseApiScope.ServiceProvider.GetRequiredService<IMongoRepository<CustomerRequestBody>>();
