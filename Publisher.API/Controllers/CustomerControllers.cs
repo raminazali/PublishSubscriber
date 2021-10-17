@@ -25,8 +25,7 @@ namespace Publisher.API.Controllers
         {
             this.responseApi = responseApi;
         }
-       
-        
+
         [HttpPost]
         public async Task Post()
         {
@@ -45,7 +44,6 @@ namespace Publisher.API.Controllers
 
                 return " Something Went Wrong "+ ex.Message;
             }
-            
         }
     }
 }

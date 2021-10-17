@@ -5,8 +5,6 @@ using System.IO;
 using Microsoft.AspNetCore.Http;
 using RabbitMQ.Interface;
 using RabbitMQ.Models;
-using System.Collections.Generic;
-using Nancy.Json;
 using System.Text;
 
 namespace Sender
