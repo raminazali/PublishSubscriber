@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using System.Text.Json;
 using System.Linq;
 using System.IO;
@@ -29,7 +30,7 @@ namespace Sender
             var ip = _httpContextAccessor.HttpContext.Request.HttpContext.Connection.RemoteIpAddress.MapToIPv4().ToString();
             var path = _httpContextAccessor.HttpContext.Request.Path.ToString();
             var body = _httpContextAccessor.HttpContext.Request.Body;
-            var _body = "";
+            var _body = String.Empty;
             if (body.CanRead)
             {
                 var stream = new StreamReader(body, Encoding.UTF8, true, 1024, true);
@@ -38,6 +39,7 @@ namespace Sender
             }
 
             var model = new Request();
+            // Manually Handle API's 
             if (path == "/api/UserControllers")
             {
 

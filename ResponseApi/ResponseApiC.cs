@@ -28,8 +28,6 @@ namespace ResponseApi
             var totalRecords = _collections.AsQueryable().Count();
 
             return (totalRecords,data);
-
-
         }
     }
 }
