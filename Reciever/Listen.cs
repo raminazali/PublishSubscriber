@@ -32,7 +32,6 @@ namespace Reciever
                 // OperationId 1 means Costumer model, Else for User Data Insert
                 if (Response.OperationId == 1)
                 {
-
                     var body = JsonSerializer.Deserialize<Customer>(Response.Body);
 
                     List<Customer> CustomerBody = new List<Customer> { body };

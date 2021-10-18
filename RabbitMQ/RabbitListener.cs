@@ -4,10 +4,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Hosting;
 using RabbitMQ.Client;
-using Microsoft.Extensions.Options;
-using RabbitMQ.Models;
 using RabbitMQ.Client.Events;
-using System;
 
 namespace RabbitMQ
 {
@@ -63,7 +60,6 @@ namespace RabbitMQ
             {
                 var content = Encoding.UTF8.GetString(DeliveryEvent.Body.ToArray());
                 ConsumerMessages(content);
-
                 _channel.BasicAck(DeliveryEvent.DeliveryTag, false);
             };
             
