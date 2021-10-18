@@ -44,6 +44,7 @@ namespace RabbitMQ
             _channel = _connection.CreateModel();
         }
 
+        // Consuming the Queue
         protected override Task ExecuteAsync(CancellationToken stoppingToken)
         {
             string ExchangeName = "Publish-Subscrib";
@@ -71,6 +72,10 @@ namespace RabbitMQ
 
             return Task.CompletedTask;
         }
+        /// <summary>
+        ///  After Listening the Queue This Method Will be Work
+        /// </summary>
+        /// <param name="content"></param>
         public virtual void ConsumerMessages(string content)
         {
 
